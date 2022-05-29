@@ -149,11 +149,13 @@ img {
     color: var(--accent-color);
 }
 
+
 .auth-nav {
     display: flex;
     margin-left: auto;
     align-items: center;
 }
+
 
 
 .auth-nav .item + .item {
