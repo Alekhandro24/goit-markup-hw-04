@@ -212,7 +212,7 @@ img {
 }
 
 
-.hero-section {
+.hero {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -422,7 +422,7 @@ img {
 .team-icon-link {
     display: flex;
 
-    color: var(--primary-text-color);
+    color: var(--team-icon-color);
 
     width: 100%;
     height: 100%;
@@ -437,13 +437,11 @@ img {
 
 .team-icon-link:hover,
 .team-icon-link:focus {
+    color: var(--team-icon-hover-color);
     background-color: var(--accent-color);
+    
 } 
 
-.team-icon-link:hover .team-icon,
-.team-icon-link:focus .team-icon{
-    fill: var(--team-icon-hover-color);
-}
 
 
 /* Постоянные клиенты*/
@@ -506,15 +504,7 @@ img {
 
 .footer-container {
     display: flex;
-    align-items: center;
-
-    width: 1200px;   
-    margin-left: auto;
-    margin-right: auto;
-    
-    padding-left: 15px;
-    padding-right: 15px;
-
+    align-items: baseline;
 }
 
 .footer-logo {
